@@ -1,7 +1,165 @@
+/* start all document style*/
 
 body{
+  margin: 0 auto;
+  background-color:#f6fff4;
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+/* the end of all document style*/
+/*start header style*/
+body > header{
+  background-color: #20bf9f;
+  position: fixed;
+  width: 100%;
+}
+body >header .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+body > header .logo{
+  width: 48px;
+  height: 50px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+body > header .logo img{
+height: 48px;
+width: 54px;
+}
+body > header nav .burger-btn{
+  display: none;
+}
+body > header nav{
+  height: 53px;
+}
+
+body > header ul{
+  list-style-type: none;
+
+}
+body > header ul li{
+  float: left;
+  display: inline-block;
+}
+body > header ul li a{
+  width: 40px;
+  margin-right: 5px;
+  padding: 18px 14px;
+  text-decoration: none;
+  color:#fff;
+  height: 53px;
+
+}
+body > header ul li a:hover{
+  background-color: #db6565;
+
+}
+
+/*tne end of header style*/
+/* mobile navegation with maxWidth(771px)*/
+@media screen and (max-width:768px){
+  body > header nav .burger-btn{
+    display: block;
+  }
+header nav:not(.active) .list-nav {
+  display: none;
+}
+header nav .burger-btn{
+  width: 55px;
+  display: block;
+  background:none;
+  border:none;
+  margin: 14px 0;
+
+}
+header nav .list-nav{
+  position: absolute;
+  right:0;
+  top: 100%;
   margin: 0;
   padding: 0;
+  width: 220px;
+  text-align: center;
+
+}
+header nav .list-nav .list-item{
+display:block;
+margin-left:0px;
+background-color: #444;
+margin-bottom: 0;
+width: 100%;
+text-align: center;
+
+}
+body > header ul li a{
+  width: inherit;
+  border-bottom: 1px solid red;
+}
+header nav .list-nav .list-item:hover,
+header nav .list-nav .list-item:hover .active{
+  background-color:red;
+}
+header nav .list-nav .list-item a{
+  display: block;
+  padding: 7px;
+}
+header nav .list-nav .list-item div{
+  display: block;
+  height: 2px;
+  width:220px;
+  background-color: red;
+}
+header nav li:last-child{
+margin-left:0px;
+}
+header nav .burger-btn .icon-line {
+    background-color: #fff;
+    height: 3px;
+    display:block;
+    margin-bottom: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+header nav .burger-btn .icon-line:last-child{
+margin-bottom: 0;
+}
+}
+/*the end of media query*/
+/*start About style*/
+#about-us {
+  width: 100%;
+  min-height: 400px;
+  /*background-image:url(../img/homeBackground.jpg);*/
+  background-image:linear-gradient(rgba(252,60,60,0.81),
+  rgba(252,60,60,0.81)),
+  url(../img/homeBackground.jpg);
+  background-size: cover;
+  padding-top: 60px;
+}
+#about-us .container{
+  text-align: center;
+  padding-top: 130px;
+}
+#about-us .container .about-us-content{
+  text-align: center;
+  width:75%;
+  display: inline-block;
+  min-height:200px;
+  color: #fff;
+  font-size: 45px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px #ff0000;
+
+}
+
+/*the end of About style*/
+
     box-sizing: border-box
 
 }
@@ -209,12 +367,6 @@ width: 50% ;
 
 }
 /* End My skills */
-<<<<<<< HEAD
-@media screen and (max-width: 400px) {
-  article {
-    padding: 1rem 3rem;
-  }
-=======
 
 
 
@@ -434,4 +586,3 @@ and (max-width : 1060px) {
     padding-left: 1%;
   }
 }
->>>>>>> 40e02efe6974ca4a9cfe444999cfb1874ef765a0
