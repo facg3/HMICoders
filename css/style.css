@@ -36,6 +36,7 @@ width: 54px;
 }
 body > header nav .burger-btn{
   display: none;
+  outline: none;
 }
 body > header nav{
   height: 53px;
@@ -176,7 +177,7 @@ margin-bottom: 0;
 .our-team {
   width: 100%;
     padding: 50px 0;
-    background:url('../img/kgdf.jpg') no-repeat center center fixed;
+    /*background:url('../img/kgdf.jpg') no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -207,8 +208,10 @@ margin-bottom: 0;
 .our-team .the-team .person {
     text-align: center;
     float: left;
+
     width: 23%;
     margin-right: 2px;
+
     margin-left: 1%;
     color: #888
 }
