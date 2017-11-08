@@ -160,10 +160,7 @@ width: 50% ;
 
 }
 /* End My skills */
-  max-width: 1000px;
-  width: 98%;
-  margin: 0 auto;
-}
+
 
 
 #contact-me{
@@ -329,7 +326,7 @@ textarea{
 footer{
   border-top: solid 2px rgb(205, 239, 210);
   margin: 4em 0 2em 0;
-  padding: 1em 0 0 0;
+  padding: 1em 0 2em 0;
   width: 100%;
   text-align: center;
 }
@@ -365,6 +362,13 @@ footer{
     width: 100%;
     margin-left: 0em;
     margin-top: 0px;
+  }
+  .my-skills .skills{
+    width: 100%;
+  }
+  .my-skills .progress {
+    float: none;
+    width: 100%;
   }
 }
 
