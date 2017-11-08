@@ -13,7 +13,7 @@ body{
 /* the end of all document style*/
 /*start header style*/
 body > header{
-  background-color: #20bf9f;
+  background-color: #000;
   position: fixed;
   width: 100%;
 }
@@ -134,7 +134,7 @@ margin-bottom: 0;
 /*start About style*/
 #about-us {
   width: 100%;
-  min-height: 400px;
+  min-height: 600px;
   /*background-image:url(../img/homeBackground.jpg);*/
   background-image:linear-gradient(rgba(252,60,60,0.81),
   rgba(252,60,60,0.81)),
@@ -144,7 +144,7 @@ margin-bottom: 0;
 }
 #about-us .container{
   text-align: center;
-  padding-top: 130px;
+  padding-top: 150px;
 }
 #about-us .container .about-us-content{
   text-align: center;
@@ -191,7 +191,7 @@ font-family: 'Gloria Hallelujah', cursive;
 
 }
 .our-team .container{
-  margin :auto;
+  margin :0 auto;
   padding : 50px 0 ;
 
 
@@ -200,7 +200,8 @@ font-family: 'Gloria Hallelujah', cursive;
 .our-team .the-team .person {
     text-align: center;
     float: left;
-    width: 24%;
+    width: 23%;
+    margin-right: 2px;
     margin-left: 1%;
     color: #888
 }
@@ -253,61 +254,21 @@ font-family: 'Gloria Hallelujah', cursive;
 
 }
 
-@media(min-width:348px) {
-    .our-team {
-        text-align: center
-    }
-    .our-team .person {
-        width: 90%;
-        margin-bottom: 15px;
-    }
 
-    .our-team .person  img {
+
+@media (max-width:550px) {
+    .our-team .the-team .person {
         width: 100%;
-        height: 100%;
-        margin: auto;
+        margin-bottom: 25px;
     }
 }
 
-@media (min-width:500px) {
-    .our-team {
-        text-align: center;
-    }
-    .our-team  .person {
+@media(max-width:1110px)and (min-width:551px) {
+
+.our-team .the-team .person {
         width: 48%;
-    }
-    .our-team  .person img {
-
-        margin: auto
-    }
-
-}
-
-@media(min-width:775px) {
-    .our-team {
-        text-align: center;
-    }
-    .our-team .person {
-        width: 35%;
-    }
-    .our-team  .person img {
-
-        margin: auto
-    }
-
-}
-
-@media(min-width:975px) {
-    .our-team  .the-team{
-        text-align: center;
-    }
-    .our-team  .the-team .person {
-        width: 23%;
-    }
-    .our-team   .the-team .person .img{
-
-        margin: auto
-    }
+        margin-bottom: 25px;
+      }
 
 }
 /* End My info */
@@ -322,10 +283,8 @@ font-family: 'Gloria Hallelujah', cursive;
 
 .my-skills .skills ,
 .my-skills .progress {
-
-width: 50% ;
+    width: 48% ;
     float: left ;
-    background-color: fd00c8
 
 }
 
@@ -346,7 +305,9 @@ width: 50% ;
     margin-left: 100px;
 
 }
-.my-skills .progress .technique { margin-left: 50px }
+.my-skills .progress .technique {
+  margin-left: 50px
+ }
 .my-skills .progress .technique h3{
     color: #A52A2A ;
     margin: 50px 0 20px 40px
@@ -397,7 +358,9 @@ h2.major{
   font-size: 18px;
   font-family:serif;
   font-weight: 100;
+  font-family: 'Indie Flower', cursive;
 }
+
 form.felid{
   margin: 2.5em 0 2em 0;
   padding: 0 0 0 3.25em;
@@ -533,11 +496,16 @@ textarea{
 footer{
   border-top: solid 2px rgb(205, 239, 210);
   margin: 4em 0 2em 0;
-  padding: 1em 0 2em 0;
+  padding: 16px 0;
   width: 100%;
   text-align: center;
 }
-
+#contact-me{
+    width: 100%;
+  }
+  #contact-me .container{
+    padding: 5%;
+  }
 @media screen and (max-width :768px) {
 
   .contact ul{
@@ -549,8 +517,8 @@ footer{
     display: block;
   }
 
-  section#contact-me.container{
-    margin-left: 10px;width
+ #contact-me.container{
+    margin-left: 10px;
     padding-left: 10px;
   }
   #name,#email,textarea{
@@ -575,7 +543,7 @@ footer{
   }
   .my-skills .progress {
     float: none;
-    width: 100%;
+    width: 95%;
   }
 }
 
