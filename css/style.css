@@ -1,4 +1,5 @@
 /* start all document style*/
+
 body{
   margin: 0 auto;
   background-color:#f6fff4;
@@ -158,3 +159,430 @@ margin-bottom: 0;
 }
 
 /*the end of About style*/
+
+    box-sizing: border-box
+
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+/*Star My info */
+.our-team {
+  width: 100%;
+    padding: 50px 0;
+    background:url('../img/kgdf.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.our-team h2 {
+font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    margin: 10px 0 40px;
+    margin-bottom: 30px ;
+    text-align: center;
+     text-transform: uppercase;
+     color: #00ff23 ;
+
+}
+.our-team .container{
+  margin :auto;
+  padding : 50px 0 ;
+
+
+}
+
+.our-team .the-team .person {
+    text-align: center;
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+    color: #888
+}
+
+
+.our-team .the-team .person .upper{
+  font-family: 'Berkshire Swash', cursive;}
+
+.our-team .the-team .person .fa-facebook {
+    background-color: #3b5998
+}
+
+.our-team .the-team .person .fa-twitter {
+    background-color: #55acee
+}
+
+.our-team .the-team .person .fa-google-plus {
+    background-color: #dc4e41
+}
+.our-team .the-team .person .fa-youtube{
+    background-color: #dc4e41
+}
+
+
+.our-team .the-team .person img {
+      margin: auto;
+      width: 250px;
+      height: 250px;
+      border: 1px solid #ddd;
+      border-radius: 20%;
+      padding: 5px ;
+
+}
+
+.our-team .the-team .person p {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.our-team .the-team .social-icons i {
+  text-align: center;
+    background-color: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 50%;
+
+}
+
+@media(min-width:348px) {
+    .our-team {
+        text-align: center
+    }
+    .our-team .person {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .our-team .person  img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+}
+
+@media (min-width:500px) {
+    .our-team {
+        text-align: center;
+    }
+    .our-team  .person {
+        width: 48%;
+    }
+    .our-team  .person img {
+
+        margin: auto
+    }
+
+}
+
+@media(min-width:775px) {
+    .our-team {
+        text-align: center;
+    }
+    .our-team .person {
+        width: 35%;
+    }
+    .our-team  .person img {
+
+        margin: auto
+    }
+
+}
+
+@media(min-width:975px) {
+    .our-team  .the-team{
+        text-align: center;
+    }
+    .our-team  .the-team .person {
+        width: 23%;
+    }
+    .our-team   .the-team .person .img{
+
+        margin: auto
+    }
+
+}
+/* End My info */
+/* Start My skills */
+.my-skills {
+    padding-top: 30px ;
+    padding-bottom: 2px ;
+    overflow: hidden ;
+    text-align: left;
+
+}
+
+.my-skills .skills ,
+.my-skills .progress {
+
+width: 50% ;
+    float: left ;
+    background-color: fd00c8
+
+}
+
+.my-skills .skills h2{
+    margin: 50px 0 20px 40px ;
+    color: #A52A2A
+}
+.my-skills .skills p{
+    margin: 0 0 10px 40px;
+    color: #666
+
+}
+.about-me .info > p:last-of-type{
+      margin: 60px 0 10px 40px;
+}
+.my-skills .skills button{
+    margin-top: 50px ;
+    margin-left: 100px;
+
+}
+.my-skills .progress .technique { margin-left: 50px }
+.my-skills .progress .technique h3{
+    color: #A52A2A ;
+    margin: 50px 0 20px 40px
+}
+.my-skills .progress .technique div{
+    background-color: #A52A2A;
+    : 30px
+}
+.my-skills .progress .technique div span{
+    background-color: #000000;
+    width:50% ;
+    height: 25px;
+    display: block ;
+    line-height: 25px;
+    text-align: center ;
+    color: #A52A2A ;
+    font-weight: bold
+
+}
+/* End My skills */
+
+
+
+#contact-me{
+  padding: 2.5em 0 3em 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+h2.major{
+  padding-bottom: 1em;
+  border-bottom: solid 2px rgb(205, 239, 210);
+}
+
+#contact-me h2{
+  color: #000;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.3em 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#contact-me p {
+  font-size: 18px;
+  font-family:serif;
+  font-weight: 100;
+}
+form.felid{
+  margin: 2.5em 0 2em 0;
+  padding: 0 0 0 3.25em;
+}
+
+form .field:first-child label {
+    margin-top: 0;
+}
+
+label{
+  color: #000;
+  display: block;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.7em 0;
+  text-transform: uppercase
+}
+#name , #email{
+  background: rgba(24, 199, 58, 0.24);
+  border-radius: 5px;
+  border: none;
+  border: solid 2px rgba(146, 20, 129, 0.125);
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%;
+  height: 2.5em;
+  margin-bottom: 0.6em;
+}
+
+textarea{
+  background: rgba(24, 199, 58, 0.24);
+  border-radius: 5px;
+  border: none;
+  border: solid 2px rgba(146, 20, 129, 0.125);
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 0.6em;
+}
+
+#name:focus,#email:focus,textarea:focus{
+  border: solid 2px rgba(39, 150, 43, 0.68);
+}
+
+.send-btn{
+  margin-top: 1 auto.5em;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: inset 0 0 0 2px rgb(196, 214, 200);
+  color: #000 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  height: 3.75em;
+  letter-spacing: 0.1em;
+  line-height: 3.75em;
+  padding: 0 2.25em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-top: 1.5em;
+}
+.send-btn:hover{
+  background-color: #17862c9e;
+  transition: 0.5s;
+}
+
+.contact ul li:first-child{
+  margin-top: 0px;
+}
+.contact ul li{
+  list-style : none;
+  margin: 2.65em 0 0 0;
+  padding: 0 0 0 3.5em;
+  position: relative;
+
+}
+.formAndcontact{
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-bottom: 4em;
+}
+.form{
+  flex: 1;
+}
+.contact{
+  width: 50%;
+  margin-left: 3em;
+  margin-top: -15px;
+}
+
+.contact ul li i::before{
+  border-radius: 100%;
+  border: solid 2px rgb(205, 239, 210);
+  display: inline-block;
+  font-size: 0.8em;
+  height: 2.5em;
+  left: 0;
+  line-height: 2.35em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 2.5em;
+}
+.contact ul li a{
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  border-bottom: dotted 2px rgb(126, 199, 136);
+  color: #000;
+  text-decoration: none;
+}
+.contact ul li a:hover{
+  border-bottom-color: transparent;
+  color: #000 !important;
+}
+.fa {
+  margin-top: 22px;
+}
+
+
+footer{
+  border-top: solid 2px rgb(205, 239, 210);
+  margin: 4em 0 2em 0;
+  padding: 1em 0 2em 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width :768px) {
+
+  .contact ul{
+    padding-left: 0px;
+    padding-top: 2em;
+  }
+
+  .formAndcontact{
+    display: block;
+  }
+
+  section#contact-me.container{
+    margin-left: 10px;width
+    padding-left: 10px;
+  }
+  #name,#email,textarea{
+    width: 94%
+  }
+  #contact-me h2{
+      width: 98%;
+  }
+  p{
+      width: 94%
+  }
+  footer{
+    width: 94%;
+  }
+  .contact{
+    width: 100%;
+    margin-left: 0em;
+    margin-top: 0px;
+  }
+  .my-skills .skills{
+    width: 100%;
+  }
+  .my-skills .progress {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1060px) {
+  #contact-me.container{
+    padding-left: 1%;
+  }
+}
