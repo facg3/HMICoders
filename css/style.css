@@ -124,11 +124,10 @@ width: 50% ;
 
 .my-skills .skills h2{
     margin: 50px 0 20px 40px ;
-    color: #fd00c8
+    color: #A52A2A
 }
 .my-skills .skills p{
     margin: 0 0 10px 40px;
-
     color: #666
 
 }
@@ -142,21 +141,21 @@ width: 50% ;
 }
 .my-skills .progress .technique { margin-left: 50px }
 .my-skills .progress .technique h3{
-    color: #ff00ca ;
+    color: #A52A2A ;
     margin: 50px 0 20px 40px
 }
 .my-skills .progress .technique div{
-    background-color: #2cca3a;
+    background-color: #A52A2A;
     : 30px
 }
 .my-skills .progress .technique div span{
-    background-color: #2cca3a;
+    background-color: #000000;
     width:50% ;
     height: 25px;
     display: block ;
     line-height: 25px;
     text-align: center ;
-    color: #362e2e ;
+    color: #A52A2A ;
     font-weight: bold
 
 }
