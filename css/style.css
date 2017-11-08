@@ -1,9 +1,163 @@
+
 body{
   margin: 0;
   padding: 0;
 
 }
 .container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*Star My info */
+.our-team {
+  width: 100%;
+    padding: 50px 0;
+    background:url('../img/kgdf.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.our-team h2 {
+
+    font-size: 50px;
+    margin: 10px 0 40px;
+    margin-bottom: 30px ;
+    text-align: center;
+     text-transform: uppercase;
+     color: #00ff23 ;
+
+}
+.our-team .container{
+  margin: 95px ;
+  color: #888 ;
+  display: inline-block;
+  padding : 50 px 80 px ;
+
+
+}
+
+
+
+.our-team .the-team .person {
+  text-align: center;
+    float: left;
+    width: 24%;
+    margin-left: 7%;
+    color: #888
+}
+
+.our-team .the-team .person img {
+  margin: auto;
+  padding: 30%
+
+
+}
+
+.our-team .the-team .person{
+    color: #555
+}
+
+.our-team .the-team .person .fa-facebook {
+    background-color: #3b5998
+}
+
+.our-team .the-team .person .fa-twitter {
+    background-color: #55acee
+}
+
+.our-team .the-team .person .fa-google-plus {
+    background-color: #dc4e41
+}
+.our-team .the-team .person .fa-youtube{
+    background-color: #dc4e41
+}
+
+
+.our-team .the-team .person img {
+    width:300px;
+    height: 295px;
+    border: 1px solid #ddd;
+      border-radius: 20%;
+      padding: 5px ;
+
+}
+
+.our-team .the-team .person p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.our-team .the-team .social-icons i {
+  text-align: center;
+    background-color: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 50%;
+
+}
+/* End My info */
+/* Start My skills */
+.my-skills {
+    padding-top: 30px ;
+    padding-bottom: 2px ;
+    overflow: hidden ;
+    text-align: left;
+
+}
+
+.my-skills .skills ,
+.my-skills .progress {
+
+width: 50% ;
+    float: left ;
+    background-color: fd00c8
+
+}
+
+.my-skills .skills h2{
+    margin: 50px 0 20px 40px ;
+    color: #fd00c8
+}
+.my-skills .skills p{
+    margin: 0 0 10px 40px;
+
+    color: #666
+
+}
+.about-me .info > p:last-of-type{
+      margin: 60px 0 10px 40px;
+}
+.my-skills .skills button{
+    margin-top: 50px ;
+    margin-left: 100px;
+
+}
+.my-skills .progress .technique { margin-left: 50px }
+.my-skills .progress .technique h3{
+    color: #ff00ca ;
+    margin: 50px 0 20px 40px
+}
+.my-skills .progress .technique div{
+    background-color: #2cca3a;
+    : 30px
+}
+.my-skills .progress .technique div span{
+    background-color: #2cca3a;
+    width:50% ;
+    height: 25px;
+    display: block ;
+    line-height: 25px;
+    text-align: center ;
+    color: #362e2e ;
+    font-weight: bold
+
+}
+/* End My skills */
   max-width: 1000px;
   width: 98%;
   margin: 0 auto;
@@ -180,34 +334,42 @@ footer{
 
 @media screen and (max-width :768px) {
 
-.contact ul{
-  padding-left: 0px;
-  padding-top: 2em;
-}
-
-.formAndcontact{
-  display: block;
-}
-
-section#contact-me.container{
-  margin-left: 10px;width
-  padding-left: 10px;
-}
-#name,#email,textarea{
-  width: 94%
+  .contact ul{
+    padding-left: 0px;
+    padding-top: 2em;
   }
-#contact-me h2{
-    width: 98%;
+
+  .formAndcontact{
+    display: block;
   }
-p{
+
+  section#contact-me.container{
+    margin-left: 10px;width
+    padding-left: 10px;
+  }
+  #name,#email,textarea{
     width: 94%
   }
-footer{
-  width: 94%;
+  #contact-me h2{
+      width: 98%;
+  }
+  p{
+      width: 94%
+  }
+  footer{
+    width: 94%;
+  }
+  .contact{
+    width: 100%;
+    margin-left: 0em;
+    margin-top: 0px;
+  }
 }
-.contact{
-  width: 100%;
-  margin-left: 0em;
-  margin-top: 0px;
-}
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1060px) {
+  #contact-me.container{
+    padding-left: 1%;
+  }
 }
