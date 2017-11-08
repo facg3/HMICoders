@@ -31,7 +31,7 @@ body{
 
 }
 .our-team .container{
-  margin: 95px ;
+  margin :auto;
   color: #888 ;
   display: inline-block;
   padding : 50 px 80 px ;
@@ -44,14 +44,17 @@ body{
 .our-team .the-team .person {
   text-align: center;
     float: left;
-    width: 24%;
-    margin-left: 7%;
+    width: 15%;
+
+    margin-left: 8%;
     color: #888
 }
 
 .our-team .the-team .person img {
-  margin: auto;
-  padding: 30%
+  margin-right: 2px ;
+  max-width: 230px;
+
+  width: 25%
 
 
 }
