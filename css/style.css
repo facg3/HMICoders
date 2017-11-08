@@ -1,8 +1,9 @@
 /* start all document style*/
 
 body{
+
   margin: 0 auto;
-  background-color:#f6fff4;
+  background-color:#D3D3D3;
 }
 .container{
   max-width: 1200px;
@@ -87,6 +88,7 @@ header nav .list-nav{
   padding: 0;
   width: 220px;
   text-align: center;
+  color :#000 ;
 
 }
 header nav .list-nav .list-item{
@@ -96,6 +98,7 @@ background-color: #444;
 margin-bottom: 0;
 width: 100%;
 text-align: center;
+color: #000;
 
 }
 body > header ul li a{
@@ -151,7 +154,7 @@ margin-bottom: 0;
   width:75%;
   display: inline-block;
   min-height:200px;
-  color: #fff;
+  color: #000;
   font-size: 45px;
   font-family: 'Lobster', cursive;
   text-shadow: 2px 2px #ff0000;
@@ -181,13 +184,17 @@ margin-bottom: 0;
 }
 
 .our-team h2 {
-font-family: 'Gloria Hallelujah', cursive;
-    font-size: 50px;
+  color: #A52A2A;
+
+  font-family: 'Courgette', cursive;
+      font-size: 250%
     margin: 10px 0 40px;
     margin-bottom: 30px ;
-    text-align: center;
-     text-transform: uppercase;
-     color: #00ff23 ;
+    text-align: left;
+
+     color: #A52A2A;
+     font-family: 'Courgette', cursive;
+         font-size: 250%
 
 }
 .our-team .container{
@@ -208,7 +215,10 @@ font-family: 'Gloria Hallelujah', cursive;
 
 
 .our-team .the-team .person .upper{
-  font-family: 'Berkshire Swash', cursive;}
+  font-family: 'Berkshire Swash', cursive;
+  color: #A52A2A;
+
+}
 
 .our-team .the-team .person .fa-facebook {
     background-color: #3b5998
@@ -237,9 +247,11 @@ font-family: 'Gloria Hallelujah', cursive;
 }
 
 .our-team .the-team .person p {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Kalam', cursive;
+    color: #000;
+
 
 }
 
@@ -290,11 +302,15 @@ font-family: 'Gloria Hallelujah', cursive;
 
 .my-skills .skills h2{
     margin: 50px 0 20px 40px ;
-    color: #A52A2A
+    color: #A52A2A;
+    font-family: 'Courgette', cursive;
+        font-size: 250%
 }
 .my-skills .skills p{
     margin: 0 0 10px 40px;
-    color: #666
+    color: #000;
+    font-size:150%;
+    font-family: 'Kalam', cursive;
 
 }
 .about-me .info > p:last-of-type{
@@ -340,9 +356,13 @@ font-family: 'Gloria Hallelujah', cursive;
 }
 
 h2.major{
+  color: #A52A2A;
+  font-family: 'Courgette', cursive;
+  font-size: 250%;
   padding-bottom: 1em;
   border-bottom: solid 2px rgb(205, 239, 210);
 }
+
 
 #contact-me h2{
   color: #000;
@@ -354,14 +374,18 @@ h2.major{
   width: 100%;
 }
 
+
 #contact-me p {
-  font-size: 18px;
-  font-family:serif;
+  color: #000;
+  font-size:150%;
+  font-family: 'Kalam', cursive;
+
   font-weight: 100;
   font-family: 'Indie Flower', cursive;
 }
-
-form.felid{
+form.felid{    color: #000;
+    font-size:150%;
+    font-family: 'Kalam', cursive;
   margin: 2.5em 0 2em 0;
   padding: 0 0 0 3.25em;
 }
@@ -414,16 +438,16 @@ textarea{
 }
 
 .send-btn{
+  color: #A52A2A;
   margin-top: 1 auto.5em;
   background-color: transparent;
   border-radius: 5px;
   border: 0;
   box-shadow: inset 0 0 0 2px rgb(196, 214, 200);
-  color: #000 !important;
+  font-family: 'Kalam', cursive;
   cursor: pointer;
   display: inline-block;
-  font-family: Raleway, Helvetica, sans-serif;
-  font-size: 0.8em;
+  font-size: 1.0em;
   font-weight: 700;
   height: 3.75em;
   letter-spacing: 0.1em;
@@ -442,8 +466,14 @@ textarea{
 
 .contact ul li:first-child{
   margin-top: 0px;
+  color: #000;
+  font-size:100%;
+  font-family: 'Kalam', cursive;
 }
 .contact ul li{
+  color: #000;
+  font-size:100%;
+  font-family: 'Kalam', cursive;
   list-style : none;
   margin: 2.65em 0 0 0;
   padding: 0 0 0 3.5em;
@@ -493,19 +523,22 @@ textarea{
 }
 
 
-footer{
-  border-top: solid 2px rgb(205, 239, 210);
-  margin: 4em 0 2em 0;
-  padding: 16px 0;
-  width: 100%;
-  text-align: center;
-}
-#contact-me{
+/* Start  Footer Section */
+
+.footer .copyright {
+  background:#111;
+  padding-top:10px ;
+    color:#AAA;
+    padding:15px 0;
+    margin-top:30px;
+    font-size:18px;
     width: 100%;
-  }
-  #contact-me .container{
-    padding: 5%;
-  }
+    text-align: center;
+}
+
+/* End Ultimate Footer Section */
+
+
 @media screen and (max-width :768px) {
 
   .contact ul{
