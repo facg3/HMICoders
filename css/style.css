@@ -2,13 +2,15 @@
 body{
   margin: 0;
   padding: 0;
+    box-sizing: border-box
 
 }
-.container{
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
+
 /*Star My info */
 .our-team {
   width: 100%;
@@ -21,7 +23,7 @@ body{
 }
 
 .our-team h2 {
-
+font-family: 'Gloria Hallelujah', cursive;
     font-size: 50px;
     margin: 10px 0 40px;
     margin-bottom: 30px ;
@@ -32,36 +34,22 @@ body{
 }
 .our-team .container{
   margin :auto;
-  color: #888 ;
-  display: inline-block;
-  padding : 50 px 80 px ;
+  padding : 50px 0 ;
 
 
 }
 
-
-
 .our-team .the-team .person {
-  text-align: center;
+    text-align: center;
     float: left;
-    width: 15%;
-
-    margin-left: 8%;
+    width: 24%;
+    margin-left: 1%;
     color: #888
 }
 
-.our-team .the-team .person img {
-  margin-right: 2px ;
-  max-width: 230px;
 
-  width: 25%
-
-
-}
-
-.our-team .the-team .person{
-    color: #555
-}
+.our-team .the-team .person .upper{
+  font-family: 'Berkshire Swash', cursive;}
 
 .our-team .the-team .person .fa-facebook {
     background-color: #3b5998
@@ -80,9 +68,10 @@ body{
 
 
 .our-team .the-team .person img {
-    width:300px;
-    height: 295px;
-    border: 1px solid #ddd;
+      margin: auto;
+      width: 250px;
+      height: 250px;
+      border: 1px solid #ddd;
       border-radius: 20%;
       padding: 5px ;
 
@@ -91,6 +80,8 @@ body{
 .our-team .the-team .person p {
     font-size: 15px;
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
+
 }
 
 .our-team .the-team .social-icons i {
@@ -101,6 +92,64 @@ body{
     line-height: 30px;
     color: #FFF;
     border-radius: 50%;
+
+}
+
+@media(min-width:348px) {
+    .our-team {
+        text-align: center
+    }
+    .our-team .person {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .our-team .person  img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+}
+
+@media (min-width:500px) {
+    .our-team {
+        text-align: center;
+    }
+    .our-team  .person {
+        width: 48%;
+    }
+    .our-team  .person img {
+
+        margin: auto
+    }
+
+}
+
+@media(min-width:775px) {
+    .our-team {
+        text-align: center;
+    }
+    .our-team .person {
+        width: 35%;
+    }
+    .our-team  .person img {
+
+        margin: auto
+    }
+
+}
+
+@media(min-width:975px) {
+    .our-team  .the-team{
+        text-align: center;
+    }
+    .our-team  .the-team .person {
+        width: 23%;
+    }
+    .our-team   .the-team .person .img{
+
+        margin: auto
+    }
 
 }
 /* End My info */
@@ -161,3 +210,7 @@ width: 50% ;
 
 }
 /* End My skills */
+@media screen and (max-width: 400px) {
+  article {
+    padding: 1rem 3rem;
+  }
