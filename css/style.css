@@ -200,7 +200,10 @@ font-family: 'Gloria Hallelujah', cursive;
 .our-team .the-team .person {
     text-align: center;
     float: left;
-    width: 24%;
+    /*new change here*/
+    width: 50%;
+    margin-right: 2px;
+    /*end change*/
     margin-left: 1%;
     color: #888
 }
