@@ -173,11 +173,10 @@ width: 50% ;
 
 .my-skills .skills h2{
     margin: 50px 0 20px 40px ;
-    color: #fd00c8
+    color: #A52A2A
 }
 .my-skills .skills p{
     margin: 0 0 10px 40px;
-
     color: #666
 
 }
@@ -191,26 +190,248 @@ width: 50% ;
 }
 .my-skills .progress .technique { margin-left: 50px }
 .my-skills .progress .technique h3{
-    color: #ff00ca ;
+    color: #A52A2A ;
     margin: 50px 0 20px 40px
 }
 .my-skills .progress .technique div{
-    background-color: #2cca3a;
+    background-color: #A52A2A;
     : 30px
 }
 .my-skills .progress .technique div span{
-    background-color: #2cca3a;
+    background-color: #000000;
     width:50% ;
     height: 25px;
     display: block ;
     line-height: 25px;
     text-align: center ;
-    color: #362e2e ;
+    color: #A52A2A ;
     font-weight: bold
 
 }
 /* End My skills */
+<<<<<<< HEAD
 @media screen and (max-width: 400px) {
   article {
     padding: 1rem 3rem;
   }
+=======
+
+
+
+#contact-me{
+  padding: 2.5em 0 3em 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+h2.major{
+  padding-bottom: 1em;
+  border-bottom: solid 2px rgb(205, 239, 210);
+}
+
+#contact-me h2{
+  color: #000;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.3em 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#contact-me p {
+  font-size: 18px;
+  font-family:serif;
+  font-weight: 100;
+}
+form.felid{
+  margin: 2.5em 0 2em 0;
+  padding: 0 0 0 3.25em;
+}
+
+form .field:first-child label {
+    margin-top: 0;
+}
+
+label{
+  color: #000;
+  display: block;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.7em 0;
+  text-transform: uppercase
+}
+#name , #email{
+  background: rgba(24, 199, 58, 0.24);
+  border-radius: 5px;
+  border: none;
+  border: solid 2px rgba(146, 20, 129, 0.125);
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%;
+  height: 2.5em;
+  margin-bottom: 0.6em;
+}
+
+textarea{
+  background: rgba(24, 199, 58, 0.24);
+  border-radius: 5px;
+  border: none;
+  border: solid 2px rgba(146, 20, 129, 0.125);
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 0.6em;
+}
+
+#name:focus,#email:focus,textarea:focus{
+  border: solid 2px rgba(39, 150, 43, 0.68);
+}
+
+.send-btn{
+  margin-top: 1 auto.5em;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: inset 0 0 0 2px rgb(196, 214, 200);
+  color: #000 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  height: 3.75em;
+  letter-spacing: 0.1em;
+  line-height: 3.75em;
+  padding: 0 2.25em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-top: 1.5em;
+}
+.send-btn:hover{
+  background-color: #17862c9e;
+  transition: 0.5s;
+}
+
+.contact ul li:first-child{
+  margin-top: 0px;
+}
+.contact ul li{
+  list-style : none;
+  margin: 2.65em 0 0 0;
+  padding: 0 0 0 3.5em;
+  position: relative;
+
+}
+.formAndcontact{
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-bottom: 4em;
+}
+.form{
+  flex: 1;
+}
+.contact{
+  width: 50%;
+  margin-left: 3em;
+  margin-top: -15px;
+}
+
+.contact ul li i::before{
+  border-radius: 100%;
+  border: solid 2px rgb(205, 239, 210);
+  display: inline-block;
+  font-size: 0.8em;
+  height: 2.5em;
+  left: 0;
+  line-height: 2.35em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 2.5em;
+}
+.contact ul li a{
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  border-bottom: dotted 2px rgb(126, 199, 136);
+  color: #000;
+  text-decoration: none;
+}
+.contact ul li a:hover{
+  border-bottom-color: transparent;
+  color: #000 !important;
+}
+.fa {
+  margin-top: 22px;
+}
+
+
+footer{
+  border-top: solid 2px rgb(205, 239, 210);
+  margin: 4em 0 2em 0;
+  padding: 1em 0 2em 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width :768px) {
+
+  .contact ul{
+    padding-left: 0px;
+    padding-top: 2em;
+  }
+
+  .formAndcontact{
+    display: block;
+  }
+
+  section#contact-me.container{
+    margin-left: 10px;width
+    padding-left: 10px;
+  }
+  #name,#email,textarea{
+    width: 94%
+  }
+  #contact-me h2{
+      width: 98%;
+  }
+  p{
+      width: 94%
+  }
+  footer{
+    width: 94%;
+  }
+  .contact{
+    width: 100%;
+    margin-left: 0em;
+    margin-top: 0px;
+  }
+  .my-skills .skills{
+    width: 100%;
+  }
+  .my-skills .progress {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1060px) {
+  #contact-me.container{
+    padding-left: 1%;
+  }
+}
+>>>>>>> 40e02efe6974ca4a9cfe444999cfb1874ef765a0
