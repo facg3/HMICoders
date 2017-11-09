@@ -104,8 +104,12 @@ color: #000;
 
 }
 body > header ul li a{
-  width: inherit;
+  width: 100%;
   border-bottom: 1px solid red;
+  font-size: 25px;
+}
+body > header ul li:last-child a{
+  border-bottom: none;
 }
 body > header ul li:last-child a{
   border-bottom: none;
@@ -128,7 +132,7 @@ header nav li:last-child{
 margin-left:0px;
 }
 header nav .burger-btn .icon-line {
-    background-color: #fff;
+    background-color: #db6565;
     height: 3px;
     display:block;
     margin-bottom: 5px;
@@ -163,7 +167,7 @@ margin-bottom: 0;
   font-size: 45px;
   font-family: 'Lobster', cursive;
   text-shadow: 2px 2px #ff0000;
-
+  padding-top: 200px;
 }
 
 /*the end of About style*/
@@ -361,6 +365,7 @@ margin-bottom: 0;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
+  width: 100%;
 }
 
 h2.major{
@@ -392,11 +397,13 @@ h2.major{
   font-weight: 100;
   font-family: 'Indie Flower', cursive;
 }
-form.felid{    color: #000;
-    font-size:150%;
-    font-family: 'Kalam', cursive;
+form.felid{
+  color: #000;
+  font-size:150%;
+  font-family: 'Kalam', cursive;
   margin: 2.5em 0 2em 0;
   padding: 0 0 0 3.25em;
+  max-width: 50%;
 }
 
 form .field:first-child label {
@@ -440,6 +447,7 @@ textarea{
   text-decoration: none;
   width: 100%;
   margin-bottom: 0.6em;
+  resize: none;
 }
 
 #name:focus,#email:focus,textarea:focus{
