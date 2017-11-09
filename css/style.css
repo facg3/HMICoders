@@ -44,7 +44,8 @@ body > header nav{
 
 body > header ul{
   list-style-type: none;
-
+ font-family: 'Courgette', cursive ;
+ color : #000
 }
 body > header ul li{
   float: left;
@@ -155,7 +156,7 @@ margin-bottom: 0;
 }
 #about-us .container{
   text-align: center;
-  padding-top: 150px;
+  padding-top: 150cpx;
 }
 #about-us .container .about-us-content{
   text-align: center;
@@ -166,7 +167,7 @@ margin-bottom: 0;
   font-size: 45px;
   font-family: 'Lobster', cursive;
   text-shadow: 2px 2px #ff0000;
-
+  padding-top: 200px;
 }
 
 /*the end of About style*/
@@ -307,7 +308,7 @@ margin-bottom: 0;
 .my-skills .progress {
     width: 48% ;
     float: left ;
-
+    font-family: 'Courgette', cursive;
 }
 
 .my-skills .skills h2{
@@ -337,6 +338,7 @@ margin-bottom: 0;
 .my-skills .progress .technique h3{
     color: #A52A2A ;
     margin: 50px 0 20px 40px
+    font-family: 'Courgette', cursive;
 }
 .my-skills .progress .technique div{
     background-color: #A52A2A;
@@ -363,20 +365,22 @@ margin-bottom: 0;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
+  width: 100%;
 }
 
 h2.major{
   color: #A52A2A;
   font-family: 'Courgette', cursive;
   font-size: 250%;
-  padding-bottom: 1em;
-  border-bottom: solid 2px rgb(205, 239, 210);
+  padding-bottom: 2px;
+  border-bottom: solid 2px #000;
 }
 
 
 #contact-me h2{
-  color: #000;
-  font-family: Raleway, Helvetica, sans-serif;
+  color: #A52A2A;
+  font-family: 'Courgette', cursive;
+  font-size: 250%;
   font-weight: 600;
   letter-spacing: 0.1em;
   margin: 0 0 0.3em 0;
@@ -407,14 +411,14 @@ form .field:first-child label {
 }
 
 label{
-  color: #000;
   display: block;
-  font-family: Raleway, Helvetica, sans-serif;
   font-size: 0.8em;
   font-weight: 700;
   letter-spacing: 0.1em;
   margin: 0 0 0.7em 0;
   text-transform: uppercase
+  color: #A52A2A;
+  font-family: 'Kalam', cursive;
 }
 #name , #email{
   background: rgba(24, 199, 58, 0.24);
@@ -493,6 +497,9 @@ textarea{
   position: relative;
 
 }
+.contact ul li i{
+color: #A52A2A
+}
 .formAndcontact{
   display: flex;
   width: 100%;
@@ -506,8 +513,11 @@ textarea{
   width: 50%;
   margin-left: 3em;
   margin-top: -15px;
-}
 
+}
+.contact ul{
+ font-size=.5em
+ }
 .contact ul li i::before{
   border-radius: 100%;
   border: solid 2px rgb(205, 239, 210);
@@ -547,6 +557,7 @@ textarea{
     font-size:18px;
     width: 100%;
     text-align: center;
+    font-family: 'Kalam', cursive
 }
 
 /* End Ultimate Footer Section */
@@ -579,6 +590,7 @@ textarea{
   footer{
     width: 94%;
   }
+
   .contact{
     width: 100%;
     margin-left: 0em;
