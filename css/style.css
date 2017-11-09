@@ -110,6 +110,9 @@ body > header ul li a{
 body > header ul li:last-child a{
   border-bottom: none;
 }
+body > header ul li:last-child a{
+  border-bottom: none;
+}
 header nav .list-nav .list-item:hover,
 header nav .list-nav .list-item:hover .active{
   background-color:red;
